@@ -12,7 +12,7 @@ Linux: bash, sed, awk, egrep<br />
 Web Server: log file and hosting of report, Apache2
 
 # Screenshots
-<img src="https://weaknetlabs.com/images/ip-flame-screenshot.png"/><br />
+<img src="https://weaknetlabs.com/images/ip-flame-screenshot0.PNG"/><br />
 Terminal Output:<br />
 ```
 trevelyn@80211:~/repository/ip-flame$ ./ip-flame.sh
