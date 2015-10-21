@@ -1,2 +1,2 @@
-# ip-flame
-Wall of Shame Generator from Web Server Logs
+# ip-shame
+Public Wall of Shame Generator for IP Addresses from Apache2 Logs

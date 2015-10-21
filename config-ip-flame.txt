@@ -1,0 +1,5 @@
+# IP-FLAME Configuration File
+#
+web-path=/var/www/weaknetlabs.com/
+offending-lines=/wiki/c
+web-log=/var/log/apache2/access.log

@@ -1,0 +1,6 @@
+# create a white-list of all IP addresses that you don't want shamed
+# for instance, your own IP address when testing out this applciation!
+#
+# 
+165.190.4.3
+192.168.1.100
