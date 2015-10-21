@@ -1,7 +1,7 @@
 # ip-flame
 Public Wall of Shame Generator for IP Addresses from Apache2 Logs.<br />
 <img src="https://weaknetlabs.com/images/ip-flame-dark.png" /><br />
-I got his idea from constantly having to blacklist IP addresses that try to add spam to an old wiki that I used to host on C programming. I actually took the wiki down because of the amount of spam that was slamming it and because <a href="https://www.cloudflare.com/">CloudFlare.com</a> only allows you to block and entire country with an expensive subscription. I thought that if there was a simple, pretty way to just check the logs and have a lot of detailed output, I would be a bit happier about the spam.
+I got his idea from constantly having to blacklist IP addresses that try to add spam to an old wiki that I used to host on C programming. Why would C programmers want knock-off Louis Vuitton purses from .CN anyways? I actually took the wiki down because of the amount of spam that was slamming it and because <a href="https://www.cloudflare.com/">CloudFlare.com</a> only allows you to block and entire country with an expensive subscription. I thought that if there was a simple, pretty way to just check the logs and have a lot of detailed output, I would be a bit happier about the spam. My own Wall-Of-Flame can be found here: <a href="http://weaknetlabs.com/flamed-ips.html">WeakNet Labs' IP Flames</a>
 
 # Functions
 Script generates static HTML
@@ -40,3 +40,4 @@ web-log=/path/to/apache2/access.log
 # TODO
 1. mobile responsive design
 2. write cron job to generate the report automatically
+3. Add a total (IPs) to the top of the HTML report
