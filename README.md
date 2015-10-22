@@ -47,7 +47,7 @@ trevelyn@80211:~/repository/ip-flame$ ip-flame.sh
 ```
 
 # TODO
-1. mobile responsive design
-2. Finish MMS/IDS function
-2. write cron job to generate the report automatically
-3. Add a total (IPs) to the top of the HTML report
+1. <strike>Mobile responsive design</strike>
+2. Finish coding MMS/IDS function
+2. Write cron job to generate the report automatically
+3. <strike>Add a total (IPs) to the top of the HTML report</strike>
