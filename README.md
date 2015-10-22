@@ -4,7 +4,7 @@ IP-Flame is a public Hack/Spam/DoS Attempt IP Wall-of-Shame generator for IP add
 
 # Functions
 The main script can be ran with: <code>./ip-flame.sh</code> after the configuration file <code>config-ip-flame.txt</code> file is updated. The script generates a static HTML report that includes dynamically generated links to <a href="https://www.shodan.io/">Shodan</a>, <a href="https://www.spamcop.net/">SpamCop</a>, <a href="http://whois.arin.net/ui">ARIN</a>, <a href="https://www.apnic.net/">APNIC</a>, <a href="http://www.infobyip.com/">InfoByIp</a>, and <a href="https://www.sophos.com/en-us.aspx">Sophos</a>, for each offending IP address found. The script does NOT make any request to these sites, just generates the links for your convenience.<br /><br />
-Technically, this could be used as a simply incidednt response tool for web-application breaches or disclosures of web-accessible data. IDS functionality is in development as well for sneding the report from the <code>cron</code> job to an MMS address. 
+Technically, this could be used as a simply incident response tool for web-application breaches or disclosures of web-accessible data. IDS functionality is in development as well for sneding the report from the <code>cron</code> job to an MMS address. 
 
 # Requirements
 Linux: bash, sed, awk, egrep<br />
