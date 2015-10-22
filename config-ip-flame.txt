@@ -1,5 +1,13 @@
 # IP-FLAME Configuration File
+# #
 #
+# This is the path to your we server (where you will host the HTML file):
+#web-path=/path/to/wwwroot/example.com/
 web-path=/var/www/weaknetlabs.com/
+# This is the offending line string, you can put regular expressions here for SQLi, XSS, etc:
 offending-lines=/wiki/c
+# This is for the Apache2 log file location:
+#web-log=/path/to/apache2/access.log
 web-log=/var/log/apache2/access.log
+# This is the temporary working path, usually the default should be okay here, no ending FWD slash:
+tmp-path=/tmp

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 	html{
-		background:#2e2e2e;
-		color:#fcff00;
+		background:#2c2c2c;
 		color:#a26520;
 		font-family: arial;
 		font-size:12px;
 	}
-	.branding{
+	.header{ /* showing the logo image abovethe tabular data */
+		margin:9% 0px 10px 0px;
+		float:left;
+	}
+	.branding{ /* show the WeakNet Labs logo */
 		position:fixed;
 		right:10px;
 		bottom:10px;
@@ -36,21 +40,35 @@
 	td{
 		padding:5px;
 	}
+	.summary{ /* This is for the top right summary */
+		position:fixed;
+		top:0px;
+		right:10px;
+		font-size:11px;
+		background-color:#0e0e0e;
+		color:#a26520;
+		font-family: monospace;
+	}
+	.content{
+		width:480px;
+		margin:auto;
+		text-align:center;
+	}
 	
 </style>
 <script>
 
 </script>
 <title>
-	IP Flame! - Hack/Spam/DoS Attempt honeypot
+	IP Flame! - Hack/Spam/DoS Attempt IP Wall-of-Shame
 </title>
 </head>
 <body>
-	<div class="header"><!-- if this image ever breaks, just replace it -->
-		<img src="https://weaknetlabs.com/images/ip-flame.png"/>
-	</div>
 	<div class="branding">
 		<img src="https://weaknetlabs.com/images/shield_orig2.png" width="200"/>
 	</div>
 	<div class="content">
-		<table>
+		<div class="header"><!-- if this image ever breaks, just replace it -->
+			<img src="https://weaknetlabs.com/images/ip-flame.png"/>
+		</div>
+			<table>
